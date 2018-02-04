@@ -65,6 +65,7 @@ p{
 
 .intro {
   background-image: url("./Fotos-intro/intro1.jpg");
+  /*background-color: #e7e6e8;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 200px;
@@ -130,7 +131,8 @@ p{
 }
 
 .proud {
-  background-image: url("./Fotos-body/wall2.jpg");
+  /*background-image: url("./Fotos-body/wall2.jpg");*/
+  background-color: #e7e6e8;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
