@@ -64,10 +64,10 @@ p{
 }
 
 .intro {
-  background-image: url("./Fotos-intro/intro1.jpg");
+  background-image: url("./Fotos-body/wall2.jpg");
   /*background-color: #e7e6e8;*/
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   min-height: 200px;
   background-size: 100%;
   color: #88CCF1;
@@ -222,13 +222,13 @@ th, td {
 
 .photo {
   /*background-color: #FFF;
-  border: 1px solid #DDD;*/
-  border-radius: 50px;
+  border: 1px solid #DDD;
+  border-radius: 100%;*/
   color: #AAA;
   padding: 20px;
   margin: 50px auto 0px auto;
-  width: 40%;
-  height: 40%;
+  width: 90%;
+  height: 90%;
   text-align: center;
 }
 
