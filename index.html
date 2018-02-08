@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<p><p><!DOCTYPE html>
 <html>
 
 <head>
@@ -12,10 +12,9 @@
 	<link rel="stylesheet" type="text/css" href="./main.css">
 </head>
 <body>
-	<img class="photo" src="./Fotos-body/intro1.jpg">
-	<hr/>
 	<div class="container">
-		<nav class="navi">
+
+		<div class="navi">
 			<ul>
 				<!--<li><a href="#intro">Introduccion</a></li>-->
 				<li><a href="#child">My childhood</a></li>
@@ -23,8 +22,12 @@
 				<li><a href="#studies">What di I study</a></li>
 				<li><a href="#family">Family, friends, animals</a></li>
 				<li><a href="#proud">Proud of...</a></li>
+				<li><a href="#contact">Contact me</a></li>
 			</ul>
-		</nav>
+		</div>
+		<hr/>
+
+		<img class="photo" src="./Fotos-body/intro1.jpg">
 		<hr/>
 
 		<div id="intro" class="intro">
@@ -33,10 +36,14 @@
 			<p>Live free in harmony with nature. Everything you give in life will come back to you. Just close your eyes and thank the sky for all the good things in your life.</p>
 		</div>
 		
+
+
 		<div id="child" class="child">
 			<h2>My childhood</h2>
-			<h3>Mi infancia</h3>
-			<p>Esta es la seccion child de la pagina</p>
+			<h3>Ballet</h3>
+			<p>From 2002 to 2006</p>
+			<h3>Violin classes</h3>
+			<p>From 2002 to 2006</p>
 		</div>
 		
 
@@ -72,44 +79,59 @@
 				</div>
 			</div>
 			<h3>Universidad</h3>
-			<p>Esta es la seccion studies de la pag</p>
+			<div class="row">
+				<div class="col-sm-6">
+					<h4>Universidad de los andes</h4>
+					<p>Ingenieria electronica</p>
+					<p>De 2013 a 2014</p>
+				</div>
+				<div class="col-sm-6">
+					<h4>Universidad de los andes</h4>
+					<p>Ingenieria de Sistemas y Computacion</p>
+					<p>De 2014 a actualidad</p>
+				</div>
+				<div class="col-sm-6">
+					<img src="https://uniandes.edu.co/sites/default/files/logo-uniandes.png">
+				</div>
+			</div>
 		</div>
 		
 
 
 		<div id="family" class="family">
 			<h2>Family, friends, animals</h2>
+			<div>
 			<h3>Familia</h3>
 			<!-- Slideshow container -->
 			<div class="slideshow-container">
 				<!-- Full-width images with number and caption text -->
 				<div class="mySlides fade">
-					<div class="numbertext">1/5</div>
-					<img src="./Fotos-body/todos.jpg" style="width:100%">
+					<div class="numbertext">1 / 5</div>
+					<img src="./Fotos-body/todos.jpg">
 					<div class="text">Familia</div>
 				</div>
 
 				<div class="mySlides fade">
-					<div class="numbertext">2/5</div>
-					<img src="./Fotos-body/family.jpg" style="width:100%">
+					<div class="numbertext">2 / 5</div>
+					<img src="./Fotos-body/family.jpg">
 					<div class="text">Familia</div>
 				</div>
 
 				<div class="mySlides fade">
-					<div class="numbertext">3/5</div>
-					<img src="./Fotos-body/ana.jpg" style="width:100%">
+					<div class="numbertext">3 / 5</div>
+					<img src="./Fotos-body/ana.jpg">
 					<div class="text">Familia</div>
 				</div>
 
 				<div class="mySlides fade">
-					<div class="numbertext">4/5</div>
-					<img src="./Fotos-body/cus.jpg" style="width:100%">
+					<div class="numbertext">4 / 5</div>
+					<img src="./Fotos-body/cus.jpg">
 					<div class="text">Fruna</div>
 				</div>
 
-				<div class="mySlides fade">
-					<div class="numbertext">5/5</div>
-					<img src="./Fotos-body/nina.jpg" style="width:100%">
+				<div class="mySlides fade" >
+					<div class="numbertext">5 / 5</div>
+					<img src="./Fotos-body/nina.jpg">
 					<div class="text">Nina</div>
 				</div>
 
@@ -127,32 +149,33 @@
 				<span class="dot" onclick="currentSlide(4)"></span> 
 				<span class="dot" onclick="currentSlide(5)"></span> 
 			</div>
-			<p>Son las personas por las cuales daria mi vida sin pensarlo</p>
+			<p>People I give my life for</p>
+		</div>
 
 			<h3>Friends</h3>
 			<div class="slideshow-container">
 				<!-- Full-width images with number and caption text -->
-				<div class="mySlides fade">
-					<div class="numbertext">1/4</div>
-					<img src="./Fotos-body/aiesec.jpg" style="width:100%">
+				<div class="mySlides1 fade">
+					<div class="numbertext">1 / 4</div>
+					<img src="./Fotos-body/aiesec.jpg">
 					<div class="text">AIESEC</div>
 				</div>
 
 				<div class="mySlides fade">
-					<div class="numbertext">2/4</div>
-					<img src="./Fotos-body/morgan.jpg" style="width:100%">
+					<div class="numbertext">2 / 4</div>
+					<img src="./Fotos-body/morgan.jpg">
 					<div class="text">Work</div>
 				</div>
 
 				<div class="mySlides fade">
-					<div class="numbertext">3/4</div>
-					<img src="./Fotos-body/negri.jpg" style="width:100%">
+					<div class="numbertext">3 / 4</div>
+					<img src="./Fotos-body/negri.jpg">
 					<div class="text">Bff</div>
 				</div>
 
 				<div class="mySlides fade">
-					<div class="numbertext">4/4</div>
-					<img src="./Fotos-body/party.jpg" style="width:100%">
+					<div class="numbertext">4 / 4</div>
+					<img src="./Fotos-body/party.jpg">
 					<div class="text">Work</div>
 				</div>
 
@@ -164,12 +187,12 @@
 
 			<!-- The dots/circles -->
 			<div style="text-align:center">
-				<span class="dot" onclick="currentSlide(1)"></span> 
-				<span class="dot" onclick="currentSlide(2)"></span> 
-				<span class="dot" onclick="currentSlide(3)"></span> 
-				<span class="dot" onclick="currentSlide(4)"></span> 
+				<span class="dot" onclick="currentSlide(6)"></span> 
+				<span class="dot" onclick="currentSlide(7)"></span> 
+				<span class="dot" onclick="currentSlide(8)"></span> 
+				<span class="dot" onclick="currentSlide(9)"></span> 
 			</div>
-			<p>Personas con las que yo se que puedo contar</p>
+			<p>You know you can trust them</p>
 		</div>
 		
 
@@ -177,6 +200,15 @@
 		<div id="proud" class="proud">
 			<h2>Proud of...</h2>
 			<h3>Inteligencia de negocios</h3>
+			<h4>Proyecto 1:</h4>
+			<h4>Proyecto 2:</h4>
+		</div>
+
+
+		<div id="contact" class="contact">
+			<h2>Contact me</h2>
+			<h4>University email:</h4>
+			<p>pj.ramirez10@uniandes.edu.co</p>
 		</div>
 	</div>
 
@@ -187,4 +219,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-</html>
+</html></p>	</p>
