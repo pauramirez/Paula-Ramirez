@@ -1,4 +1,4 @@
-<p><p><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -8,74 +8,83 @@
 	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="shortcut icon" type="image/png" href="icon.png"/>
+	<link rel="shortcut icon" type="image/png" href="./Fotos-body/tree.png"/>
 	<link rel="stylesheet" type="text/css" href="./main.css">
 </head>
 <body>
+	<header class="navi">
+		<ul>
+			<!--<li><a href="#intro">Introduccion</a></li>-->
+			<li><a href="#child">About me</a></li>
+			<li><a href="#studies">Study</a></li>
+			<li><a href="#travel">Languages</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#proud">Proud of...</a></li>
+			<li><a href="#contact">Contact me</a></li>
+		</ul>
+	</header>
 	<div class="container">
-
-		<div class="navi">
-			<ul>
-				<!--<li><a href="#intro">Introduccion</a></li>-->
-				<li><a href="#child">My childhood</a></li>
-				<li><a href="#travel">Places I've go to</a></li>
-				<li><a href="#studies">What di I study</a></li>
-				<li><a href="#family">Family, friends, animals</a></li>
-				<li><a href="#proud">Proud of...</a></li>
-				<li><a href="#contact">Contact me</a></li>
-			</ul>
-		</div>
 		<hr/>
 
 		<img class="photo" src="./Fotos-body/intro1.jpg">
 		<hr/>
 
 		<div id="intro" class="intro">
-			<h1>Paula Ramirez Gonzalez</h1>
+			<h1 data-aos="zoom-in">Paula Ramirez Gonzalez</h1>
 			<br>
 			<p>Live free in harmony with nature. Everything you give in life will come back to you. Just close your eyes and thank the sky for all the good things in your life.</p>
 		</div>
-		
+		<hr/>
+
 
 
 		<div id="child" class="child">
-			<h2>My childhood</h2>
-			<h3>Ballet</h3>
-			<p>From 2002 to 2006</p>
-			<h3>Violin classes</h3>
-			<p>From 2002 to 2006</p>
+			<h2>About me</h2>
+			<p>I am a bilingual student of computers engineering at Los Andes University. I have additional studies
+				in design. Also I have knowledge in relational data bases and multidimensional data bases and
+			different programming languages.</p>
+			<div class="row">
+				<div class="col-sm-3">
+					<h3>Ballet</h3>
+					<p>From 2002 to 2006</p>
+					<img class="picA" src="http://cdn.onlinewebfonts.com/svg/img_121504.png" alt="icono de una bailarina de ballet">
+				</div>
+				<div class="col-sm-3">
+					<h3>Violin classes</h3>
+					<p>From 2002 to 2006</p>
+					<img class="picA" src="https://d30y9cdsu7xlg0.cloudfront.net/png/77939-200.png" alt="icono de un violin">
+				</div>
+				<div class="col-sm-3">
+					<h3>Tennis classes</h3>
+					<p>From 2013 to 2015</p>
+					<img class="picA" src="http://simpleicon.com/wp-content/uploads/tennis.png" alt="icono de una raqueta y pelota de tenis">
+				</div>
+				<div class="col-sm-3">
+					<h3>Gym</h3>
+					<p>From 2013 to 2015</p>
+					<img class="picA" src="https://d30y9cdsu7xlg0.cloudfront.net/png/79156-200.png" alt="icono de un elemendo de gimnacio">
+				</div>
+			</div>
 		</div>
-		
+		<hr/>
 
-
-		<div id="travel" class="travel">
-			<h2>Places I've go to</h2>
-			<h3>Viajes familiares</h3>
-			<ul>
-				<li>Cancun</li>
-				<li>Estados Unidos</li>
-				<li>Tokio</li>
-			</ul>
-			<p>Esta es la seccion travel de la pag</p>
-		</div>
-		
 
 
 		<div id="studies" class="studies">
-			<h2>What di I study</h2>
+			<h2>Study</h2>
 			<h3>Colegios</h3>
 			<div class="row">
 				<div class="col-sm-6">
 					<h4>Colegio Anglo Americano</h4>
-					<p>De 1997 a 2005</p>
+					<p>From 1997 to 2005</p>
 				</div>
 				<div class="col-sm-6">
 					<h4>Colegio Los Campitos(Venezuela)</h4>
-					<p>De 2005 a 2006</p>
+					<p>From 2005 to 2006</p>
 				</div>
 				<div class="col-sm-6">
 					<h4>Colegio Colombo Gales </h4>
-					<p>De 2006 a 2013</p>
+					<p>From 2006 to 2013</p>
 				</div>
 			</div>
 			<h3>Universidad</h3>
@@ -83,126 +92,108 @@
 				<div class="col-sm-6">
 					<h4>Universidad de los andes</h4>
 					<p>Ingenieria electronica</p>
-					<p>De 2013 a 2014</p>
 				</div>
 				<div class="col-sm-6">
 					<h4>Universidad de los andes</h4>
 					<p>Ingenieria de Sistemas y Computacion</p>
-					<p>De 2014 a actualidad</p>
 				</div>
 				<div class="col-sm-6">
-					<img src="https://uniandes.edu.co/sites/default/files/logo-uniandes.png">
+					<img class="pic" src="https://leodoncel.com/leodoncel/wp-content/uploads/2014/10/1813.png" alt="Logo de la unoversidad de los andes">
 				</div>
 			</div>
 		</div>
+		<hr/>
+
+
+
+		<div id="travel" class="travel">
+			<h2>Languages</h2>
+			<ul>
+				<li>Cancun</li>
+				<li>Estados Unidos</li>
+				<li>Tokio</li>
+			</ul>
+			<p>Esta es la seccion travel de la pag</p>
+		</div>
+		<hr/>
 		
 
 
-		<div id="family" class="family">
-			<h2>Family, friends, animals</h2>
-			<div>
-			<h3>Familia</h3>
-			<!-- Slideshow container -->
-			<div class="slideshow-container">
-				<!-- Full-width images with number and caption text -->
-				<div class="mySlides fade">
-					<div class="numbertext">1 / 5</div>
-					<img src="./Fotos-body/todos.jpg">
-					<div class="text">Familia</div>
-				</div>
+		<div id="skills" class="skills">
+			<h2>Skills</h2>
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>Programming languages</h3>
 
-				<div class="mySlides fade">
-					<div class="numbertext">2 / 5</div>
-					<img src="./Fotos-body/family.jpg">
-					<div class="text">Familia</div>
-				</div>
+					<div class="skillbar clearfix " data-percent="90%">
+						<div class="skillbar-title" style="background: #c0b8ab;">
+							<span>PL-SQL</span>
+						</div>
+						<div class="skillbar-bar" style="background: #c0b8ab;"></div>
+						<div class="skill-bar-percent">90%</div>
+					</div> 
 
-				<div class="mySlides fade">
-					<div class="numbertext">3 / 5</div>
-					<img src="./Fotos-body/ana.jpg">
-					<div class="text">Familia</div>
-				</div>
+					<div class="skillbar clearfix " data-percent="70%">
+						<div class="skillbar-title" style="background: #c0b8ab;">
+							<span>Java</span>
+						</div>
+						<div class="skillbar-bar" style="background: #c0b8ab;"></div>
+						<div class="skill-bar-percent">70%</div>
+					</div>			
 
-				<div class="mySlides fade">
-					<div class="numbertext">4 / 5</div>
-					<img src="./Fotos-body/cus.jpg">
-					<div class="text">Fruna</div>
+					<div class="skillbar clearfix " data-percent="70%">
+						<div class="skillbar-title" style="background: #c0b8ab;">
+							<span>HTML/CSS</span>
+						</div>
+						<div class="skillbar-bar" style="background: #c0b8ab;"></div>
+						<div class="skill-bar-percent">70%</div>
+					</div>
 				</div>
+				<div class="col-sm-6">
+					<h3>Programs</h3>
+					<div class="skillbar clearfix " data-percent="70%">
+						<div class="skillbar-title" style="background: #c0b8ab;">
+							<span>Weka</span>
+						</div>
+						<div class="skillbar-bar" style="background: #c0b8ab;"></div>
+						<div class="skill-bar-percent">70%</div>
+					</div>
 
-				<div class="mySlides fade" >
-					<div class="numbertext">5 / 5</div>
-					<img src="./Fotos-body/nina.jpg">
-					<div class="text">Nina</div>
+					<div class="skillbar clearfix " data-percent="70%">
+						<div class="skillbar-title" style="background: #c0b8ab;">
+							<span>Tableau</span>
+						</div>
+						<div class="skillbar-bar" style="background: #c0b8ab;"></div>
+						<div class="skill-bar-percent">70%</div>
+					</div>
+
+					<div class="skillbar clearfix " data-percent="70%">
+						<div class="skillbar-title" style="background: #c0b8ab;">
+							<span>Bizagi</span>
+						</div>
+						<div class="skillbar-bar" style="background: #c0b8ab;"></div>
+						<div class="skill-bar-percent">70%</div>
+					</div>
 				</div>
-
-				<!-- Next and previous buttons -->
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-				<a class="next" onclick="plusSlides(1)">&#10095;</a>
 			</div>
-			<br>
-
-			<!-- The dots/circles -->
-			<div style="text-align:center">
-				<span class="dot" onclick="currentSlide(1)"></span> 
-				<span class="dot" onclick="currentSlide(2)"></span> 
-				<span class="dot" onclick="currentSlide(3)"></span> 
-				<span class="dot" onclick="currentSlide(4)"></span> 
-				<span class="dot" onclick="currentSlide(5)"></span> 
-			</div>
-			<p>People I give my life for</p>
 		</div>
+		<hr/>
 
-			<h3>Friends</h3>
-			<div class="slideshow-container">
-				<!-- Full-width images with number and caption text -->
-				<div class="mySlides1 fade">
-					<div class="numbertext">1 / 4</div>
-					<img src="./Fotos-body/aiesec.jpg">
-					<div class="text">AIESEC</div>
-				</div>
-
-				<div class="mySlides fade">
-					<div class="numbertext">2 / 4</div>
-					<img src="./Fotos-body/morgan.jpg">
-					<div class="text">Work</div>
-				</div>
-
-				<div class="mySlides fade">
-					<div class="numbertext">3 / 4</div>
-					<img src="./Fotos-body/negri.jpg">
-					<div class="text">Bff</div>
-				</div>
-
-				<div class="mySlides fade">
-					<div class="numbertext">4 / 4</div>
-					<img src="./Fotos-body/party.jpg">
-					<div class="text">Work</div>
-				</div>
-
-				<!-- Next and previous buttons -->
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-				<a class="next" onclick="plusSlides(1)">&#10095;</a>
-			</div>
-			<br>
-
-			<!-- The dots/circles -->
-			<div style="text-align:center">
-				<span class="dot" onclick="currentSlide(6)"></span> 
-				<span class="dot" onclick="currentSlide(7)"></span> 
-				<span class="dot" onclick="currentSlide(8)"></span> 
-				<span class="dot" onclick="currentSlide(9)"></span> 
-			</div>
-			<p>You know you can trust them</p>
-		</div>
-		
 
 
 		<div id="proud" class="proud">
 			<h2>Proud of...</h2>
-			<h3>Inteligencia de negocios</h3>
-			<h4>Proyecto 1:</h4>
-			<h4>Proyecto 2:</h4>
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>Inteligencia de negocios</h3>
+					<h4>Proyecto 1:</h4>
+					<a href="Proyecto1.docx">Proyecto 1 <a/>
+					<h4>Proyecto 2:</h4>
+					<a href="Proyecto2.docx">Proyecto 2</a>
+				</div>
+			</div>
 		</div>
+		<hr/>
 
 
 		<div id="contact" class="contact">
@@ -212,11 +203,11 @@
 		</div>
 	</div>
 
-<script type="text/javascript" src="scriptt.js"></script>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="scriptt.js"></script>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-</html></p>	</p>
+</html>
