@@ -289,6 +289,8 @@ th, td {
 /* Hide the images by default */
 .mySlides {
     display: none;
+    /*height: 50%; */
+    width: 100%;
 }
 
 /* Next & previous buttons */
