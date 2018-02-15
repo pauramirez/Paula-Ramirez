@@ -1,3 +1,5 @@
+/* falta el use strict */
+/* seía bueno poner el global $ para evitar que se marquen errores por usar $ */
 jQuery(document).ready(function(){
 	jQuery('.skillbar').each(function(){
 		jQuery(this).find('.skillbar-bar').animate({
